@@ -15,6 +15,7 @@ const useStyles = createUseStyles({
   descriptionText: {
     width: '30%',
     fontSize: '1.5rem',
+    margin: '0 6%',
     '& h3': {
       fontFamily: 'proxima-nova, sans-serif'
     },
@@ -31,7 +32,7 @@ const useStyles = createUseStyles({
     right: 0
   },
   bomb: {
-    marginTop: '100px',
+    margin: '100px 7% 0 6%',
     width: '100px',
     height: '100px',
   },

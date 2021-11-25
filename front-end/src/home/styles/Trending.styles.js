@@ -10,7 +10,8 @@ const useStyles = createUseStyles({
     height: '100vh',
     position: 'relative',
     top: '-64px',
-    paddingTop: '1%'
+    paddingTop: '1%',
+    
   },
   trendingList: {
     display: 'flex',
@@ -19,10 +20,10 @@ const useStyles = createUseStyles({
     padding: '1% 0'
   },
   subTitle: {
-    margin: '2%'
+    margin: '2% 0 2% 9%'
   },
   title: {
-    margin: '2%',
+    margin: '2% 0 2% 9%',
     fontSize: '2rem',
     fontFamily: 'proxima-nova, sans-serif'
   }
