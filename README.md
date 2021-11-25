@@ -28,10 +28,10 @@ You can also manually create the tables following the schema in `8_bit_clan_sche
 
 ## Tech stack used in app:
 
-*Frontend*: React.js, JSS for styling
-*Backend*: Node.js, Express
-*Database*: PostgresQL
-*Deployment*: Heroku, Surge
+- *Frontend*: React.js, JSS for styling
+- *Backend*: Node.js, Express
+- *Database*: PostgresQL
+- *Deployment*: Heroku, Surge
 
 ## How to deploy this app
 
