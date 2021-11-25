@@ -1,0 +1,11 @@
+CREATE TABLE users (
+  username VARCHAR(25) UNIQUE PRIMARY KEY,
+  password TEXT NOT NULL
+);
+
+CREATE TABLE works (
+  id SERIAL PRIMARY KEY,
+  title TEXT DEFAULT 'Untitled',
+  author TEXT NOT NULL REFERENCES users ON DELETE CASCADE,
+  composition TEXT NOT NULL
+);
