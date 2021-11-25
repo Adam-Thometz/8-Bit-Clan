@@ -28,8 +28,8 @@ const Description = () => {
       </div>
       <div className={styles.description}>
         <div className={styles.descriptionText}>
-          <h3>How can 8.Bit Clan help?</h3>
-          <p>Our mission is to make the process of creating digital art accessible to the general public. 8.Bit is an online supportive community of artists and digital painting app that helps you express your full creativity using a stencil.</p>
+          <h3>How can 8 Bit Clan help?</h3>
+          <p>Our mission is to make the process of creating digital art accessible to the general public. 8 Bit Clan is an online supportive community of artists and digital painting app that helps you express your full creativity using a stencil.</p>
         </div>
         <img className={styles.people} src={people} />
       </div>

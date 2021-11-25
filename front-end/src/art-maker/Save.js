@@ -24,7 +24,7 @@ const Save = () => {
     const pixelColorData = fromPixelsToDb(pixels);
     const username = currUser.username;
     await Api.saveWork({title, username, pixelColorData});
-    setMessage(['Saved successfully! Check it out in your collection!', 'success'])
+    setMessage(['Saved successfully!  Go to the home page and see if your NFT is trending!', 'success'])
   };
 
   // Change handler for typing a title

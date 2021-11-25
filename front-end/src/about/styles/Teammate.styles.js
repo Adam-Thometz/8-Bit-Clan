@@ -22,7 +22,8 @@ const useStyles = createUseStyles({
   },
   about: {
     margin: '10px 50px 10px 0',
-    fontSize: '0.8rem'
+    fontSize: '0.8rem',
+    width: '70%'
   },
   iconWrapper: {
     margin: '25px 0',

@@ -20,7 +20,8 @@ const useStyles = createUseStyles({
       lineHeight: '1.6'
     },
     '& h4': {
-      fontFamily: 'proxima-nova, sans-serif'
+      fontFamily: 'proxima-nova, sans-serif',
+      margin: '-5%'
     }
   },
   icon: {

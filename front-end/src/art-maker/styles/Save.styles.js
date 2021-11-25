@@ -10,7 +10,7 @@ const useStyles = createUseStyles({
   popup: {
     textAlign: 'center',
     fontFamily: 'proxima-nova, sans-serif',
-    height: '30vh',
+    height: '50vh',
     width: '50vw',
     display: 'flex',
     flexDirection: 'column',
@@ -34,10 +34,12 @@ const useStyles = createUseStyles({
     fontSize: '1rem'
    },
    messageSuccess: {
-    color: 'green'
+    color: 'green',
+    margin: '0 10vw'
    },
    messageFail: {
-    color: 'red'
+    color: 'red',
+    margin: '0 10vw'
    }
 });
 

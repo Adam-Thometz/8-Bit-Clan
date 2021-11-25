@@ -23,7 +23,7 @@ const Icons = () => {
       <div className={styles.iconWrapper}>
         <img className={styles.icon} src={save} />
         <h4>Save</h4>
-        <p>Create an account and save your work to vuild a unique collection</p>
+        <p>Create an account and save your work to build a unique collection</p>
       </div>
     </div>
   );

@@ -17,7 +17,8 @@ const useStyles = createUseStyles({
     width: '80%'
   },
   header: {
-    textAlign: 'center'
+    textAlign: 'center',
+    fontFamily: 'proxima-nova, sans-serif'
   }
 });
 

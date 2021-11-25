@@ -14,7 +14,8 @@ const useStyles = createUseStyles({
   item: {
     padding: '21px',
     fontFamily: 'Courier',
-    color: '#0c1158'
+    color: '#0c1158',
+    textDecoration: 'none'
   },
   logo: {
     width: '175px',
@@ -27,10 +28,12 @@ const useStyles = createUseStyles({
     backgroundColor: 'rgba(255, 255, 255, 0)',
     marginRight: '20px',
     fontFamily: 'courier',
+    cursor: 'pointer'
   },
   dropDown: {
    textAlign: 'center',
    fontFamily: 'courier',
+   cursor: 'pointer',
    height: '100%',
    display: 'flex',
    flexDirection: 'column',
@@ -56,6 +59,7 @@ const useStyles = createUseStyles({
     borderRadius: '10px',
     backgroundColor: 'rgba(255, 255, 255, 0)',
     fontFamily: 'courier',
+    cursor: 'pointer'
   },
   or: {
     fontFamily: 'proxima-nova, sans-serif',
@@ -65,7 +69,8 @@ const useStyles = createUseStyles({
     fontFamily: 'courier',
     fontSize: '0.7rem',
     border: 'none',
-    backgroundColor: 'rgba(255, 255, 255, 0)'
+    backgroundColor: 'rgba(255, 255, 255, 0)',
+    cursor: 'pointer'
   }
 });
 

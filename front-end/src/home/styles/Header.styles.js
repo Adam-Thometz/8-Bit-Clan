@@ -25,7 +25,7 @@ const useStyles = createUseStyles({
       fontFamily: 'proxima-nova, sans-serif'
     },
     '& h5': {
-      margin: '10% 0',
+      margin: '5% 0 10% 0',
       fontSize: '1rem'
     }
   },

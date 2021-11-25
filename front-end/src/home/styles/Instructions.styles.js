@@ -2,7 +2,7 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   instructions: {
-    margin: '-30% 5% 5% 5%',
+    margin: '-20% 5% 5% 5%',
     textAlign: 'center'
   },
   header: {
