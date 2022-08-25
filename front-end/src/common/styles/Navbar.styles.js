@@ -31,13 +31,13 @@ const useStyles = createUseStyles({
     cursor: 'pointer'
   },
   dropDown: {
-   textAlign: 'center',
-   fontFamily: 'courier',
-   cursor: 'pointer',
-   height: '100%',
-   display: 'flex',
-   flexDirection: 'column',
-   justifyContent: 'space-evenly'
+    textAlign: 'center',
+    fontFamily: 'courier',
+    cursor: 'pointer',
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-evenly'
   },
   formGroup: {
     textAlign: 'left',
@@ -71,6 +71,10 @@ const useStyles = createUseStyles({
     border: 'none',
     backgroundColor: 'rgba(255, 255, 255, 0)',
     cursor: 'pointer'
+  },
+  loginInfo: {
+    fontFamily: 'courier',
+    textAlign: 'center'
   }
 });
 

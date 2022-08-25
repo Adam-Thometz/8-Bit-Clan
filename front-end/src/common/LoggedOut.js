@@ -86,7 +86,10 @@ const LoggedOut = ({login, signup}) => {
             </div>
           )}
         </form>
-        <div>
+        <div className={styles.loginInfo}>
+          <p>To try this app:</p>
+          <p>Username: abc</p>
+          <p>Password: 123</p>
           {(errors && errors.length) ? errors.map(e => (<p>{e}</p>)) : null}
         </div>
       </Popup>
