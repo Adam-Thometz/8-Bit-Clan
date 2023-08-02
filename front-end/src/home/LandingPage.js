@@ -19,7 +19,7 @@ const LandingPage = () => {
       setDisplayedWorks(recentWorks);
     };
     getRecentWorks();
-  });
+  }, []);
 
   return (
     <div className={styles.landingPage}>

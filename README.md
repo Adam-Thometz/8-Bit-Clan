@@ -4,6 +4,8 @@ Make the next big 8-bit NFT!
 
 [Check it out here](https://8-bit-clan.surge.sh/)
 
+**NOTE:** The backend is currently not working due to Heroku recently switching over to paid plans. 
+
 ## How to run this app locally
 
 #### 1. Activate front end

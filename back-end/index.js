@@ -17,6 +17,10 @@ app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
 app.use('/works', workRoutes);
 
+app.get('/', async (req, res, next) => {
+  return res.status(200).json({Hello: "World!"})
+})
+
 app.use((req, res, next) => {
   return next(new NotFoundError());
 });
